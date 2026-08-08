@@ -33,5 +33,5 @@ python3 -m http.server 8000
 ## Design system
 
 A light editorial theme (`#F9F9F7` canvas, `#11EE91` accent) on the marketing pages and a
-dark analytics theme on the dashboard, unified by the Inter typeface and a&£onsistent radius /
+dark analytics theme on the dashboard, unified by the Inter typeface and a consistent radius /
 shadow scale defined via CSS custom properties.
