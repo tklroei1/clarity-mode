@@ -1,37 +1,42 @@
-# Clarity Mode
+# Clarity Mode — Product Design Exercise
 
-A concept marketing & product experience for **Clarity Mode** — an AI writing layer that
-translates dense technical language into precise, audience-ready communication for engineering,
-sales-engineering, and customer-success teams.
+**An independent product design exercise** exploring a calmer, focus-oriented writing experience —
+a concept for translating dense technical language into clearer, audience-ready communication.
+
+> **This is an independent product design exercise. It is not affiliated with, endorsed by, or
+> produced by Grammarly.** All names, metrics, and analytics shown are **illustrative demo data**
+> created to demonstrate the design — they are not real usage figures or research results.
+
+## What's here
 
 Three self-contained, responsive HTML pages (no build step, no dependencies):
 
 | Page | File | What it is |
 |------|------|------------|
-| Landing | `index.html` | Product landing page for the flagship *Technical Clarity Mode* feature |
-| Onboarding | `onboarding.html` | Post-signup onboarding flow with a live "before / after" transformer |
-| Dashboard | `dashboard.html` | Performance analytics dashboard (funnel, adoption, insights) |
+| Landing | `index.html` | Concept landing page for the design |
+| Onboarding | `onboarding.html` | Onboarding flow with a live "before / after" transformer |
+| Dashboard | `dashboard.html` | A mock analytics dashboard (illustrative data only) |
 
-## Highlights
+The three pages interlink via a small footer nav.
 
-- **Fully responsive** — mobile, tablet, and wide-desktop breakpoints across every page,
-  including a mobile hamburger menu on the landing page and adaptive grids on the dashboard.
-- **Zero dependencies** — pure HTML/CSS/vanilla JS. All styles are inline; charts on the
-  dashboard are rendered with hand-written JS.
-- **Accessible interactions** — keyboard-reachable nav, `aria-expanded` state on the menu
-  toggle, and semantic structure.
+## Status & scope
+
+- A front-end **prototype / concept**. The interactive pieces (menu, before/after transformer, charts)
+  run entirely client-side; there is no backend, account system, or real data.
+- Dashboard figures are **hand-authored sample values** for layout demonstration, not measurements.
 
 ## Run it
 
-Just open any of the HTML files in a browser, or serve the folder:
+Open any of the HTML files in a browser, or serve the folder:
 
 ```bash
 python3 -m http.server 8000
 # then visit http://localhost:8000
 ```
 
+Works fully offline and in a private window — nothing is loaded from local-only files.
+
 ## Design system
 
-A light editorial theme (`#F9F9F7` canvas, `#11EE91` accent) on the marketing pages and a
-dark analytics theme on the dashboard, unified by the Inter typeface and a consistent radius /
-shadow scale defined via CSS custom properties.
+A light editorial theme on the concept pages and a dark analytics theme on the dashboard, unified by the
+Inter typeface and a consistent radius / shadow scale defined via CSS custom properties.
